@@ -22,9 +22,9 @@ public abstract class DebugHudMixin {
     @Inject(at = @At(value = "HEAD"), method = "getLeftText")
 	private void spf$modifyFpsDebugString(CallbackInfoReturnable<List<String>> cir) {
 		if(client.fpsDebugString.contains("fps")) {
-			int fps = Integer.parseInt(client.fpsDebugString.split("fps")[0].trim());
-			String string = "spf" + client.fpsDebugString.split("fps")[1];
-			client.fpsDebugString = String.format(Locale.ROOT, "%.5f %s", 1/(double)fps, string);
+			double lastFrameDuration_ms = client.getLastFrameDuration();
+			String string = "spf" + client.fpsDebugString.split("fps", 2)[1];
+			client.fpsDebugString = String.format(Locale.ROOT, "%.5f %s", lastFrameDuration_ms/1000, string);
 		}
 	}
 }
