@@ -8,7 +8,7 @@
 	"icon": "assets/spf/icon.png",
 	"entrypoints": {
 		"main": [
-			"com.a11v1r15.SecondsPerFrame"
+			"com.a11v1r15.spf.SecondsPerFrame"
 		]
 	},
 	"contact": {
@@ -18,8 +18,8 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.15",
-		"minecraft": ">=1.14",
-		"java": ">=17"
+		"minecraft": "~1.14.4",
+		"java": ">=8"
 	},
 	"authors": [
 		"A11v1r15"

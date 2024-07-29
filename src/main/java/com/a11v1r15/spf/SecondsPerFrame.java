@@ -1,4 +1,4 @@
-package com.a11v1r15;
+package com.a11v1r15.spf;
 
 import net.fabricmc.api.ModInitializer;
 

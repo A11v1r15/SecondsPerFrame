@@ -1,7 +1,7 @@
 {
 	"required": true,
-	"package": "com.a11v1r15.mixin",
-	"compatibilityLevel": "JAVA_21",
+	"package": "com.a11v1r15.spf.mixin",
+	"compatibilityLevel": "JAVA_8",
 	"mixins": [
 		"DebugHudMixin"],
 	"injectors": {

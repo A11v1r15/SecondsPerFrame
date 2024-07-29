@@ -1,4 +1,4 @@
-package com.a11v1r15.mixin;
+package com.a11v1r15.spf.mixin;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
