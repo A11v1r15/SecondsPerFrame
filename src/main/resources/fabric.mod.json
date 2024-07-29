@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "spf",
+	"name": "Seconds Per Frame",
+	"version": "${version}",
+	"environment": "*",
+	"license": "MIT",
+	"icon": "assets/spf/icon.png",
+	"entrypoints": {
+		"main": [
+			"com.a11v1r15.SecondsPerFrame"
+		]
+	},
+	"contact": {
+		"homepage": "https://modrinth.com/mod/spf",
+		"sources": "https://github.com/A11v1r15/SecondsPerFrame",
+		"issues": "https://github.com/A11v1r15/SecondsPerFrame/issues"
+	},
+	"depends": {
+		"fabricloader": ">=0.15",
+		"minecraft": ">=1.14",
+		"java": ">=17"
+	},
+	"authors": [
+		"A11v1r15"
+	],
+	"description": "Forget FPS, see the performance of your Minecraft game in SPF!",
+	"mixins": [
+		"spf.mixins.json"
+	]
+}
